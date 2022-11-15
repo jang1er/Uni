@@ -7,5 +7,4 @@ fak_rec n = if n == 0 then 1
 fak_end n m = if n == 0 then m 
                 else  fak_end (n-1) (n * m)
 -- Typsignatur: Num t => t -> t -> t
-
 -- teilaufgabe c 
