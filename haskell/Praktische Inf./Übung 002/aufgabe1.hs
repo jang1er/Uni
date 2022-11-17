@@ -1,3 +1,4 @@
+
 lehmann = True
 mueller = True
 schulze = True
@@ -10,4 +11,3 @@ solveM = not lehmann || not schulze
 
 -- Aussage 3
 solveS = not mueller
-
