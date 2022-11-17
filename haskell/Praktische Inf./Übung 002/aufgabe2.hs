@@ -11,3 +11,10 @@ fak_end n m = if n == 0
 -- Typsignatur: Num t => t -> t -> t
 
 -- teilaufgabe c 
+
+-- Typsignatur: 
+
+
+-- teilaufgabe d
+
+-- Typsignatur: 
