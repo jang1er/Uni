@@ -2,10 +2,10 @@ lehmann = True
 mueller = True
 schulze = True
 
--- Aussage 1
+-- Aussage: Lehmann lügt oder nicht 
 solveL = not schulze
 
--- Aussage 2
+-- Aussage: Müller lügt oder nicht
 solveM = not lehmann || not schulze
 
 -- Aussage 3
