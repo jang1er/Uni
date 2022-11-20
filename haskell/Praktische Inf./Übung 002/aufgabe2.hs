@@ -1,20 +1,35 @@
 -- teilaufgabe a
-fak_rec n = if n == 0 
-            then 1
-            else n * fak_rec (n-1)
--- Typsignatur: Num t => t -> t
+-- V.1:
+fak 0 = 1
+fak n = n * fak (n - 1)
+-- Typsignatur: fak :: Int -> Int
 
 -- teilaufgabe b
-fak_end n m = if n == 0 
-                then m 
-                else  fak_end (n-1) (n * m)
--- Typsignatur: Num t => t -> t -> t
+-- V.1:
+fakEnd 0 m = m
+fakEnd n m = fakEnd (n-1) (n * m)
+-- Typsignatur: fakEnd :: Int -> Int -> Int
+-- V.2:
+
 
 -- teilaufgabe c 
-
--- Typsignatur: 
+isEven :: Int -> Bool
+isEven n = mod n 2 == 0
+-- alt. : isEven n = even n
+-- Typsignatur: isEven :: Int -> Bool
 
 
 -- teilaufgabe d
+isOdd :: Int -> Bool
+isOdd n = mod n 2 == 1
+-- alt.: isOdd n = not even n
+-- Typsignatur: isOdd :: Int -> Bool
 
--- Typsignatur: 
+-- teilaufgabe e
+isEvenR 0 = True
+isEvenR n = isOddR (n-1)
+-- Typsignatur : isEvenR :: Int -> Bool
+
+isOddR 0 = False 
+isOddR n = isEvenR (n-1)
+-- Typsignatur : isOddR :: Int -> Bool
