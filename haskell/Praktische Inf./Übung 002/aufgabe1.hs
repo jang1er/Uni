@@ -1,6 +1,6 @@
 
 lehmann = True
-mueller = True
+mueller = False
 schulze = True
 
 -- Aussage: Lehmann lügt oder nicht 
