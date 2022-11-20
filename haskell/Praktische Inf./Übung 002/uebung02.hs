@@ -9,7 +9,7 @@ solveL = not schulze
 -- Aussage: Müller lügt oder nicht
 solveM = not lehmann || not schulze
 
--- Aussage 3
+-- Aussage 3: Schulze lügt oder nicht
 solveS = not mueller
 
 --------------------------------------------------
