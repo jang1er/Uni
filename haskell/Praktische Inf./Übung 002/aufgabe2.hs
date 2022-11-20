@@ -1,15 +1,12 @@
 -- teilaufgabe a
--- V.1:
 fak 0 = 1
 fak n = n * fak (n - 1)
 -- Typsignatur: fak :: Int -> Int
 
 -- teilaufgabe b
--- V.1:
 fakEnd 0 m = m
 fakEnd n m = fakEnd (n-1) (n * m)
 -- Typsignatur: fakEnd :: Int -> Int -> Int
--- V.2:
 
 
 -- teilaufgabe c 
