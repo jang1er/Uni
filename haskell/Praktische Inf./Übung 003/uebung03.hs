@@ -41,7 +41,8 @@ mult ((a11,a12), (a21, a22)) ((b11,b12),(b21,b22)) =
 
 -- c) 
 transform :: Matrix -> Vector -> Vector
-transform ( (a11,a12), (a21, a22)) (x,y) =(  ( (x * a11) + (y * a12)), ( (x * a21) + (y * a22)))
+transform ( (a11,a12), (a21, a22)) (x,y) = 
+    (  ( (x * a11) + (y * a12)), ( (x * a21) + (y * a22)))
 
 -- d)
 rotation :: Double -> Matrix
