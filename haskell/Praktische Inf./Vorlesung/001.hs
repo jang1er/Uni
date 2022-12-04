@@ -7,8 +7,6 @@ dec a = a-1
 twice :: (a -> a) -> a -> a
 twice f a = f (f a)
 
-
-
 fst :: (a,b) -> a
 fst (x,_) = x
 
@@ -25,7 +23,6 @@ math :: (a -> b -> c) -> a -> b -> c
 math f x y = f x y
 
 
-
 -- Typdefinition und Datenkonstruktoren
 
 data Foobar
@@ -37,7 +34,3 @@ data Fizzbuzz f b
     = Fizz Int b 
     | Buzz Int f 
     | FizzBuzz Int b f 
-
-data Maybe a    --- Permanenter Fehler
-    = Nothing 
-    | Just a

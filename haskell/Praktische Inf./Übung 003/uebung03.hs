@@ -51,3 +51,33 @@ rotation b =
         (   (sin b), (cos b)  ))
 
 
+-- Aufgabe 4
+_f = transform (rotation(pi/2)) . transform(rotation(pi/4))
+
+_f' = transform (rotation(pi/2) `mult` rotation(pi/4))
+
+-- a) Typ _f::  Vector -> Vector
+--    Typ _f':: Vector -> Vector
+
+-- b) 
+{-  Beide Funktionen multiplizieren einen Vektor mit einer Drehmatrix, also die Funktion 
+    dreht einen Vektor um 135 Grad gegen den Uhrzeiger Sinn (pi/2 = 90 Grad + pi/4 = 45 Grad => 135 Grad).
+    Das wird durch zwei verschiedene Weisen erzielt in _f wird zuerst der Vektor mit der ersten Rotations-
+    matrix (pi/2) transformiert und dann wird dieser Output-Vektor über den '.'-Operator an die zweite
+    Transformatiom (pi/4) übergeben. 
+    In _f' werden zuerst die beiden Drehmatrizen mit der mult-Funktion zu einer zusammengefasst, welche
+    die gesamte Rotation enthält und dann mit dem Eingangsvektor transformiert. 
+-}
+-- c)
+g b a = transform b . transform a 
+g' b a = transform (a `mult` b)
+
+-- Aufgabe 5
+
+-- a) Typ monotonic::(Integer -> Integer) -> Integer -> Integer -> Bool
+
+-- b)
+monotonic ::(Integer -> Integer) -> Integer -> Integer -> Bool
+monotonic f a b | a == b            = True
+                | f a >= f (a+1)    = False
+                | otherwise         = monotonic f (a+1) b
