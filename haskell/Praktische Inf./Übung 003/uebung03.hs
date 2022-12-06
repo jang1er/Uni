@@ -22,7 +22,7 @@ add (x1, y1) (x2, y2) = (x1 + x2, y1 + y2)
 scale :: Double -> Vector -> Vector
 scale a (x,y) = (a * x, a *y)
 
--- e) 
+-- e)
 normalize :: Vector -> Vector
 normalize (x ,y) =scale  ( 1 / magnitude (x,y) ) (x,y)
 
@@ -71,13 +71,27 @@ _f' = transform (rotation(pi/2) `mult` rotation(pi/4))
 -- c)
 g b a = transform b . transform a 
 g' b a = transform (a `mult` b)
+{-
+    Beide Funktionen erwarten zwei Matrizen, sowie einen nicht direkt enthalteten Vektor.
+    In der ersten Funktion g wird zuerst die Transformation mit der Matrix b und dem Vektor durch geführt
+    und den neuen Vektor für die nächste Transformation mit der Matrix a verwendet. Also die Funktion g
+    führt eine Transformation auf einen Vektor mit den Matrizen a und b aus.
+    Auf das gleiche Ergebnis kommt auch die Funktion g', wobei hier nicht der Output der ersten 
+    Transformation als Input für die zweite Transformation verwendet wird, sondern es wird zuerst eine 
+    Matrixmultiplikation zwischen den beiden Matrizen a und b durchgeführt und danach wird 
+    diese kombinierte Matrix für die Transformation mit dem Vektor benutzt.
+-}
 
 -- Aufgabe 5
 
--- a) Typ monotonic::(Integer -> Integer) -> Integer -> Integer -> Bool
+type Intervall = (Integer, Integer)
+type Function = (Integer -> Integer)
+
+-- a)   Typ monotonic::Function -> Intervall - Bool
+--      Typ monotonic::(Integer -> Integer) -> (Integer, Integer) -> Bool
 
 -- b)
-monotonic ::(Integer -> Integer) -> Integer -> Integer -> Bool
-monotonic f a b | a == b            = True
+monotonic:: Function -> Intervall -> Bool
+monotonic f (a, b) | a == b            = True
                 | f a >= f (a+1)    = False
-                | otherwise         = monotonic f (a+1) b
+                | otherwise         = monotonic f ((a+1), b)
