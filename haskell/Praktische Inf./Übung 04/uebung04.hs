@@ -1,6 +1,8 @@
 -- Aufgabe 1 
 -- a)
-
+{-
+ ############### Ich entschuldige mich im Voraus für meine Variablenbenennung #################
+-}
 data Rank =   VII
             | VIII
             | IX
@@ -44,7 +46,7 @@ trick t (Of r1 s1) (Of r2 s2)  | s1 == t && s2 /= t = (Of r1 s1)
                                                     else (Of r1 s1)
 
 -- g)
-
+-- Vielleicht geht das besser, aber ist mir egal
 turn :: Card -> Card -> (Int , Int) -> (Int, Int)
 turn a b (sc1, sc2) | sc1 > sc2 = if ((trick (getSuit b ) a b) == a)
                                     then (sc1 + 1, sc2 )
@@ -55,7 +57,6 @@ turn a b (sc1, sc2) | sc1 > sc2 = if ((trick (getSuit b ) a b) == a)
                     | otherwise = if ((trick (getSuit a ) a b) == a)
                                     then (sc1 + 1, sc2 )
                                     else (sc1 ,sc2 + 1 )
-
 -- Hilffunktionen:
 getSuit :: Card -> Suit
 getSuit (Of _ suit ) = suit
@@ -67,3 +68,28 @@ game a = gameStart a (0,0)
 gameStart :: [(Card, Card)] -> (Int, Int) -> (Int, Int)
 gameStart ((a , b) : cards) (sc1 , sc2) | cards == [] = turn a b (sc1, sc2)
                                         | otherwise = gameStart cards (turn a b (sc1,sc2))
+
+{- ###########################################
+
+    Aufgabe 2
+
+a)
+    odds stellt eine unendliche Liste mit allen ungeraden natürlichen Zahlen dar.
+
+b)
+    divs stellt eine begrenzte Liste mit allen Teilern (welche Element der natürlichen Zahlen sind)
+    von n, wobei n und 1 ausgeschlossen werden, dar.
+
+c) 
+    Die Liste pyths ist eine unendliche Integer-Tripel-Liste, in der alle pythagoräischen Zahlentripel
+    mit a < b enthalten sind.
+-}
+-- #####################################################
+-- Aufgabe 3
+
+--scanl :: (b -> a -> b) -> b -> [a] -> [b]
+--scanl _ q []        = [q]
+--scanl f q (x:xs)    = q : (scanl f (f q x) xs)
+
+fibs :: [Integer]
+fibs = scanl (+) 1 (0:fibs)
