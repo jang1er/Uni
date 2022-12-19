@@ -51,7 +51,7 @@ turn :: Card -> Card -> (Int , Int) -> (Int, Int)
 turn a b (sc1, sc2) | sc1 > sc2 = if ((trick (getSuit b ) a b) == a)
                                     then (sc1 + 1, sc2 )
                                     else (sc1 ,sc2 + 1 )
-                    |sc1 < sc2 = if ((trick (getSuit a ) a b ) == a)
+                    | sc1 < sc2 = if ((trick (getSuit a ) a b ) == a)
                                     then (sc1 + 1, sc2)
                                     else (sc1 , sc2 + 1)
                     | otherwise = if ((trick (getSuit a ) a b) == a)
@@ -74,16 +74,24 @@ gameStart ((a , b) : cards) (sc1 , sc2) | cards == [] = turn a b (sc1, sc2)
     Aufgabe 2
 
 a)
-    odds stellt eine unendliche Liste mit allen ungeraden natürlichen Zahlen dar.
-
+    odds stellt eine unendliche Liste mit allen ungeraden natürlichen Zahlen dar. -}
+odds :: [Integer]
+odds = [1,3..]
+{-
 b)
     divs stellt eine begrenzte Liste mit allen Teilern (welche Element der natürlichen Zahlen sind)
-    von n, wobei n und 1 ausgeschlossen werden, dar.
+    von n, wobei n und 1 ausgeschlossen werden, dar. -}
+divs :: Integer -> [Integer]
+divs n = [ x | x <- [2..(n-1)], n `mod` x == 0 ]
 
+{-
 c) 
     Die Liste pyths ist eine unendliche Integer-Tripel-Liste, in der alle pythagoräischen Zahlentripel
     mit a < b enthalten sind.
 -}
+pyths :: [(Integer,Integer,Integer)]
+pyths = [(x,y,z) | z <- [1..], x <- [1..z], y <- [1..z], (x*x) + (y*y) == (z*z), x < y]
+
 -- #####################################################
 -- Aufgabe 3
 
