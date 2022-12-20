@@ -60,8 +60,9 @@ getSuit (Of _ suit ) = suit
 
 -- f)
 game :: [(Card, Card)] -> (Int, Int)
-game [] = (0,0)
-game a = turn (last a) (game (init a))
+--game [] = (0,0)
+--game a = turn (last a) (game (init a))
+game a = gameStart a (0,0)
 
 gameStart :: [(Card, Card)] -> (Int, Int) -> (Int, Int)
 gameStart ((a , b) : cards) (sc1 , sc2) | cards == [] = turn (a, b) (sc1, sc2)
