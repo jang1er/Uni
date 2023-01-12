@@ -1,4 +1,3 @@
-import Distribution.Parsec (Position)
 -- Aufgabe 1
 
 -- Aufgabe 2
@@ -70,7 +69,7 @@ norm :: Position -> Position
 norm p = 1/magnitude p *# p
 
 -- a) 
-type Position = (Double,Double)
+type Position = (Double, Double)
 
 -- b)
 data Direction = U | D | H 
@@ -78,4 +77,28 @@ data Direction = U | D | H
 -- c)
 move :: Direction -> Position -> Position
 move H pos = pos +# (1,0) 
+move U pos = pos +# norm (1,1)
+move D pos = pos +# norm (1,-1)
+
+-- Hilfsfunktion um Parameter für move wieder korrekt benutzen (Position -> Direction in scanl zu Direction -> Position)
+move' :: Position -> Direction -> Position
+move' pos dir = move dir pos
                 
+-- d)
+rudolf :: [Direction] -> [Position]
+rudolf dir = scanl (move') (0,0) dir
+
+-- e)
+follow :: Position -> Position -> Position
+follow pos1 pos2    | magnitude(pos2 -# pos1) > 1 = norm (pos2 -# pos1) +# pos1
+                    | otherwise = pos1
+
+-- f)
+sled :: Int -> [Position] -> [Position]
+sled _ [] = []
+sled n pos = sled' (realToFrac n) (realToFrac n) pos
+
+sled' :: Double -> Double -> [Position] -> [Position]
+sled' _ _ [] = []
+sled' n m pos   | n > 0 = sled' (n-1) m (scanl follow (-(m-n),0) pos)
+                | otherwise = scanl (follow) (-(m+1),0) pos
