@@ -1,11 +1,19 @@
+import GHC.Float (int2Double)
 -- Aufgabe 1
+{-  Die Funktion (:.) verknüpft zwei Funktionen mit zwei Eingabeparametern zu einem Ausgabeparameter.
+    Zuerst bildet die Funktion o von den Parametern x und y auf einen neuen ( z ) ab. --> (a1 -> a2 -> b)
+    Danch wird dieser neue Parameter ( z ) benutzt um mithilfe der Funktion f auf den Ausgangsparameter abzubilden.
+    --> (b -> c)
+
+    Der Aufruf der Funktion (:.) => f . ( o x y ) = f ( o x y )
+-}
 
 -- Aufgabe 2
 -- a)
 take' :: Int -> [a] -> [a]
 take' 0 _ = []
 take' _ [] = []
-take' n (x:xs) = (x: take' (n-1) xs)
+take' n (x:xs) = x: take' (n-1) xs
 
 -- b)
 drop' :: Int -> [a] -> [a]
@@ -96,7 +104,7 @@ follow pos1 pos2    | magnitude(pos2 -# pos1) > 1 = norm (pos2 -# pos1) +# pos1
 -- f)
 sled :: Int -> [Position] -> [Position]
 sled _ [] = []
-sled n pos = sled' (realToFrac n) (realToFrac n) pos
+sled n pos = sled' (int2Double n) (int2Double n) pos
 
 sled' :: Double -> Double -> [Position] -> [Position]
 sled' _ _ [] = []
