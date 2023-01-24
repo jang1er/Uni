@@ -48,7 +48,7 @@ foldFolderTree fContent fFolder = fold
 
 
 sizeOfType :: FileType -> FolderTree File -> Size
-sizeOfType t = undefined
+sizeOfType t = foldFolderTree (\ _ (File ft s) -> if t == ft then s else 0) (\ _ ss -> sum ss)
 
 
 filesOfType :: FileType -> FolderTree File -> [Path]
