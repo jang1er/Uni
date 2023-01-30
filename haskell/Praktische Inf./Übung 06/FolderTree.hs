@@ -52,8 +52,8 @@ sizeOfType t = foldFolderTree (\ _ (File ft s) -> if t == ft then s else 0) (\ _
 
 
 filesOfType :: FileType -> FolderTree File -> [Path]
-filesOfType t = undefined
-
+--filesOfType t = foldFolderTree (\ name (File ft _) -> if t == ft then name else []) (\ n ns -> [n : ns])
+filesOfType = undefined
 
 
 data FolderTreeZip content
@@ -61,11 +61,8 @@ data FolderTreeZip content
   deriving (Show, Eq)
 
 type Zipper content = (FolderTree content, [FolderTreeZip content])
-
-
 zipper :: FolderTree content -> Zipper content
 zipper f = (f, [])
-
 
 descend :: String -> Zipper content -> Maybe (Zipper content)
 descend _ (Content _ _, _)   = Nothing
@@ -94,21 +91,32 @@ modify f _                 = Nothing
 
 
 get :: (c -> a) -> Zipper c -> Maybe a
-get f (Content _ x, _) = Just (f x)
+get f (Content _ x, _) = Just( f x)
 get _ _                = Nothing
 
 
 getAt :: Path -> (c -> a) -> FolderTree c -> Maybe a
-getAt p f = undefined
+getAt p f c = fs f ( descendTo p (zipper c) ) 
+  where
+    fs f ( Just (Content _ x, _)) = Just (f x)
+    fs _ _ = Nothing
 
 
 modifyAt :: Path -> (c -> c) -> FolderTree c -> Maybe (FolderTree c)
-modifyAt p f = undefined
-
+modifyAt p f c = fs f (descendTo p (zipper c))
+  where
+    fs f (Just (Content n x, xs)) = Just (unwind ( ascend(Content n (f x), xs)))
+    fs _ _ = Nothing
 
 isFileOfType :: Path -> FileType -> FolderTree File -> Maybe Bool
-isFileOfType p t = undefined
+isFileOfType p t f = fs (descendTo p (zipper f))
+  where 
+    fs (Just (Content n (File ft _), xs)) = Just (ft == t)
+    fs _ = Nothing
 
 
 setTypeOfFile :: Path -> FileType -> FolderTree File -> Maybe (FolderTree File)
-setTypeOfFile p t = undefined
+setTypeOfFile p t f = fs ( descendTo p (zipper f))
+  where
+    fs (Just (Content n (File _ b ), xs)) = Just (unwind(ascend(Content n (File t b), xs)))
+    fs Nothing = Nothing
