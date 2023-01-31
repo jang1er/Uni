@@ -38,4 +38,3 @@ find n tree = foldBinTree Nothing f tree
         f a Nothing (Just as) = Just (a:as)
         f a (Just as) Nothing = Just (a:as)
 
--- Aufgabe 2

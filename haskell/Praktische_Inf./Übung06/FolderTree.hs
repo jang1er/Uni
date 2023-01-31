@@ -52,8 +52,7 @@ sizeOfType t = foldFolderTree (\ _ (File ft s) -> if t == ft then s else 0) (\ _
 
 
 filesOfType :: FileType -> FolderTree File -> [Path]
---filesOfType t = foldFolderTree (\ name (File ft _) -> if t == ft then name else []) (\ n ns -> [n : ns])
-filesOfType = undefined
+filesOfType t = foldFolderTree (\ name (File ft _) -> if t == ft then [[name]] else []) (\ n ns -> map (n :) (concat ns))
 
 
 data FolderTreeZip content
