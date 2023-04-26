@@ -7,9 +7,11 @@ public class Addition {
     private final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        // Deklarierung: Variable wird erstellt, Datentyp und Name werden festgelegt
-        // Initialisierung: Variable bekommt den ersten Wert des entsprechenden Datentyps zugewiesen
-        int myInteger = readIntFromConsole();
+        // Deklarierung der Variable als int
+        int myInteger;
+
+        //Initialisierung der Variable
+        myInteger = readIntFromConsole();
 
         // zweite Variable
         int myOtherInteger = readIntFromConsole();
@@ -17,8 +19,8 @@ public class Addition {
         int mySum = myInteger + myOtherInteger;
 
         System.out.println("Eingabe1: " + myInteger);
-        System.out.println("Eingabe2: " + myOtherInteger);
-        System.out.println("Summe: " + mySum);
+        System.out.println(" Eingabe2: " + myOtherInteger);
+        System.out.println(" Summe: " + mySum);
     }
 
     /**
