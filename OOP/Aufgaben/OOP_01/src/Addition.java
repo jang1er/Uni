@@ -19,8 +19,8 @@ public class Addition {
         int mySum = myInteger + myOtherInteger;
 
         System.out.println("Eingabe1: " + myInteger);
-        System.out.println(" Eingabe2: " + myOtherInteger);
-        System.out.println(" Summe: " + mySum);
+        System.out.println("Eingabe2: " + myOtherInteger);
+        System.out.println("Summe: " + mySum);
     }
 
     /**
