@@ -11,13 +11,48 @@ public class LoopsNested {
         int n = readIntFromConsole();
 
         //TODO: a)
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        System.out.println();
 
         //TODO: b)
-        
+        for(int x = 0; x < n; x++){
+            for (int y = 0; y <= x; y++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+
         //TODO: c)
-        
+        for (int a = 1; a <= n; a++){
+            for (int b = 1; b <= n; b++){
+                if(a == 1 || a == n || b == 1 || b == n){
+                    System.out.print("* ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println();
+
         //TODO: d)
-		
+        for (int o = 1; o <= n; o++){
+            for (int p = 1; p <= n; p++){
+                if(o == 1 || o == n || p == 1 || p == n|| p > (n/2)+1){
+                    System.out.print("* ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 
     /**

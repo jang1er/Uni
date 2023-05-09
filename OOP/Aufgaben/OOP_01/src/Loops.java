@@ -11,20 +11,53 @@ public class Loops {
         int n = readIntFromConsole();
 
         //TODO: a)
+        for(int i = 1; i <= n; i++){
+            System.out.print(i + " ");
+        }
+        // make line break
+        System.out.println();
 
         //TODO: b)
         //i)
+        int i = 1;
+        while(i <= n){
+            if(i % 2 == 0)System.out.print(i + " ");
+            i++;
+        }
+        // make line break
+        System.out.println();
 
         //ii)
+        int j = 1;
+        while(j <= n){
+            System.out.print(j*j + " ");
+            j++;
+        }
+        System.out.println();
 
         //iii)
-
+        int k = n;
+        while(k >= -n){
+            System.out.print(k + " ");
+            k--;
+        }
+        System.out.println();
 
         //TODO: c)
+        int m = 1;
+        while(m <= n){
+            if(m % 2 == 0){
+                System.out.print("+ ");
+            }else {
+                System.out.print("* ");
+            }
+            m++;
+        }
+        System.out.println();
         
     }
 
-    /**
+    /**0
      * #BLACKBOX
      * Blackbox-Methode zum Einlesen aus der Konsole. Bei einer fehlerhaften Eingabe wird zu einer
      * erneuten Eingabe aufgefordet,
