@@ -1,7 +1,9 @@
+package sheet01;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class LoopsNested {
+public class Loops {
 
     //Blackbox
     private final static Scanner scanner = new Scanner(System.in);
@@ -11,51 +13,53 @@ public class LoopsNested {
         int n = readIntFromConsole();
 
         //TODO: a)
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < n; j++){
-                System.out.print("* ");
-            }
-            System.out.println();
+        for(int i = 1; i <= n; i++){
+            System.out.print(i + " ");
         }
+        // make line break
         System.out.println();
 
         //TODO: b)
-        for(int x = 0; x < n; x++){
-            for (int y = 0; y <= x; y++){
-                System.out.print("* ");
-            }
-            System.out.println();
+        //i)
+        int i = 1;
+        while(i <= n){
+            if(i % 2 == 0)System.out.print(i + " ");
+            i++;
+        }
+        // make line break
+        System.out.println();
+
+        //ii)
+        int j = 1;
+        while(j <= n){
+            System.out.print(j*j + " ");
+            j++;
+        }
+        System.out.println();
+
+        //iii)
+        int k = n;
+        while(k >= -n){
+            System.out.print(k + " ");
+            k--;
         }
         System.out.println();
 
         //TODO: c)
-        for (int a = 1; a <= n; a++){
-            for (int b = 1; b <= n; b++){
-                if(a == 1 || a == n || b == 1 || b == n){
-                    System.out.print("* ");
-                }else {
-                    System.out.print("  ");
-                }
+        int m = 1;
+        while(m <= n){
+            if(m % 2 == 0){
+                System.out.print("+ ");
+            }else {
+                System.out.print("* ");
             }
-            System.out.println();
+            m++;
         }
         System.out.println();
-
-        //TODO: d)
-        for (int o = 1; o <= n; o++){
-            for (int p = 1; p <= n; p++){
-                if(o == 1 || o == n || p == 1 || p == n|| p > (n/2)+1){
-                    System.out.print("* ");
-                }else {
-                    System.out.print("  ");
-                }
-            }
-            System.out.println();
-        }
-        System.out.println();
+        
     }
 
-    /**
+    /**0
      * #BLACKBOX
      * Blackbox-Methode zum Einlesen aus der Konsole. Bei einer fehlerhaften Eingabe wird zu einer
      * erneuten Eingabe aufgefordet,

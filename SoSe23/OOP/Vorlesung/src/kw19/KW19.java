@@ -1,3 +1,5 @@
+package kw19;
+
 public class KW19 {
     public static void main(String args[]){
         System.out.println(startsOrEndsWithSpace("hello world"));
