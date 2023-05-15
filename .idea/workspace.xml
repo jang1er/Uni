@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc1575a1-81bc-4a53-b7d2-70e0a9f5a597" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Uni.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Uni.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cc1575a1-81bc-4a53-b7d2-70e0a9f5a597" name="Changes" comment="Even Better File Structure">
+      <change afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03/ArrayMixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03/Karteikarte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/Aufgaben.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/Aufgaben.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/OOP_01/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/OOP_01/OOP_01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/OOP_01/src/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet01/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/OOP_01/src/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet01/Loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/OOP_01/src/LoopsNested.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet01/LoopsNested.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/OOP_01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Vorlesung/src/KW19.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Vorlesung/src/kw19/KW19.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +31,9 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2PbEu2QP3RJj7qikZw37rrYxaIW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/jonask/Uni/SoSe23/OOP/Aufgaben",
+    "last_opened_file_path": "/home/jonask/Uni/SoSe23/OOP/Aufgaben/src/sheet03",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -60,6 +51,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03" />
       <recent name="$PROJECT_DIR$/SoSe23/OOP/Aufgaben" />
     </key>
   </component>
@@ -72,7 +64,19 @@
       <option name="presentableId" value="Default" />
       <updated>1683717599238</updated>
     </task>
+    <task id="LOCAL-00001" summary="Even Better File Structure">
+      <created>1683719077264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683719077264</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Even Better File Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Even Better File Structure" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Uni$Loops.ic" NAME="Loops Coverage Results" MODIFIED="1683718760389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
