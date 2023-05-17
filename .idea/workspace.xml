@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc1575a1-81bc-4a53-b7d2-70e0a9f5a597" name="Changes" comment="Even Better File Structure">
-      <change afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03/ArrayMixed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03/Karteikarte.java" afterDir="false" />
+    <list default="true" id="cc1575a1-81bc-4a53-b7d2-70e0a9f5a597" name="Changes" comment="OOP sheet02 unfinshed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03/ArrayMixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03/ArrayMixed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03/Karteikarte.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03/Karteikarte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/jonask/Uni/SoSe23/OOP/Aufgaben/src/sheet03",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jonask/Uni/SoSe23/OOP/Aufgaben/src/sheet03&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03" />
@@ -71,12 +71,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683719077264</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OOP sheet02 unfinshed">
+      <created>1684162974783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684162974783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Even Better File Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Even Better File Structure" />
+    <MESSAGE value="OOP sheet02 unfinshed" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP sheet02 unfinshed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Uni$Loops.ic" NAME="Loops Coverage Results" MODIFIED="1683718760389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
