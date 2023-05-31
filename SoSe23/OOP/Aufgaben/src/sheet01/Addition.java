@@ -20,6 +20,7 @@ public class Addition {
 
         int mySum = myInteger + myOtherInteger;
 
+        // Output der Eingaben und der Summe
         System.out.println("Eingabe1: " + myInteger);
         System.out.println("Eingabe2: " + myOtherInteger);
         System.out.println("Summe: " + mySum);

@@ -13,7 +13,7 @@ public class ArrayMixed{
 		System.out.println(join("-", split(";", "A;B;C;Horst")));
 
 		String[] array = new String[]{"AAAbc","AEf","cAAAA","aa","A"};
-		//sortByLength(array);
+		sortByLength(array);
 		for (String s : array){
 			System.out.println(s);
 		}
