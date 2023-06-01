@@ -140,7 +140,7 @@ public class PuzzleUtil {
     public static void rotateClockwise(int[][] array) {
         if(array.length != array[0].length)return;
         for (int i = 0; i < array.length; i++){
-            for (int j = 1; j < array.length; j++){
+            for (int j = i; j < array.length; j++){
                 if( i != j) {
                     int temp = array[i][j];
                     array[i][j] = array[j][i];
@@ -158,7 +158,9 @@ public class PuzzleUtil {
 
     //h)
     public static void partialRotateClockwise(int[][] array, int rowStart, int rowEnd, int colStart, int colEnd) {
-        //TODO
+       int[][] delta = extractSubarray(array, rowStart,rowEnd, colStart, colEnd);
+       rotateClockwise(delta);
+       replaceInArray(array, delta, rowStart, colStart);
     }
 
 
