@@ -1,28 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc1575a1-81bc-4a53-b7d2-70e0a9f5a597" name="Changes" comment="OOP sheet06 anfang">
-      <change afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet06/test/main/java/de/uulm/sp/oop/exercises/e06/GradeOverviewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/Aufgaben.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/Aufgaben.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet06/src/main/java/de/uulm/sp/oop/exercises/e06/GradeOverview.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet06/src/main/java/de/uulm/sp/oop/exercises/e06/GradeOverview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet06/src/test/java/de/uulm/sp/oop/exercises/e06/GradeOverviewTests.java" beforeDir="false" />
+    <list default="true" id="08a4bbae-0b63-4f8b-9b23-06c0077d298f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Uni.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Uni.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/Aufgaben.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet01/Addition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet01/Loops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet01/LoopsNested.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet01/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet02/ArrayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet02/puzzle/arrows/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet02/puzzle/arrows/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet02/puzzle/arrows/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet02/puzzle/arrows/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet02/puzzle/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet02/puzzle/src/de/uulm/sp/oop/sheet02/Puzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet02/puzzle/src/de/uulm/sp/oop/sheet02/PuzzleUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet03/ArrayMixed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet03/Karteikarte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/src/de/uulm/in/pm/api/AbstractAnimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/src/de/uulm/in/pm/api/AbstractBird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/src/de/uulm/in/pm/api/BirdOfPrey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/src/de/uulm/in/pm/api/Eagle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/src/de/uulm/in/pm/api/Flyable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/src/de/uulm/in/pm/api/Ingestable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/src/de/uulm/in/pm/api/Moveable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/src/de/uulm/in/pm/api/Train.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/src/de/uulm/in/pm/api/Waggon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/test/de/uulm/in/pm/api/TrainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/test/de/uulm/in/pm/api/WaggonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet04/test/sheet04/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet05/oopExercises23Sheet05/src/main/java/de/uulm/sp/oop/exercises/e05/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet05/oopExercises23Sheet05/src/main/java/de/uulm/sp/oop/exercises/e05/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet05/oopExercises23Sheet05/src/main/java/de/uulm/sp/oop/exercises/e05/Sokoban.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet05/oopExercises23Sheet05/test/main/java/de/uulm/sp/oop/exercises/e05/PairTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet05/oopExercises23Sheet05/test/main/java/de/uulm/sp/oop/exercises/e05/SokobanTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet06/src/main/java/de/uulm/sp/oop/exercises/e06/GradeOverview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet06/src/main/java/de/uulm/sp/oop/exercises/e06/HashMapArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet06/src/main/java/de/uulm/sp/oop/exercises/e06/util/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet06/test/main/java/de/uulm/sp/oop/exercises/e06/GradeOverviewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-4.13.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,143 +68,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2PbEu2QP3RJj7qikZw37rrYxaIW" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2RCSpmnuiVvuVFR4QfPxA8Gosex" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_directory_selection": "/home/jonask/Uni/SoSe23/OOP/Aufgaben/sheet06/test",
-    "last_opened_file_path": "/home/jonask/Uni/SoSe23/OOP/Aufgaben/sheet05/oopExercises23Sheet05",
+    "git-widget-placeholder": "main",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.side.proportion": "0.19302514"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet02" />
-      <recent name="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/src/sheet03" />
-      <recent name="$PROJECT_DIR$/SoSe23/OOP/Aufgaben" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sheet05/oopExercises23Sheet05/src/test/java/de/uulm/sp/oop/exercises" />
-      <recent name="$PROJECT_DIR$/SoSe23/OOP" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="main.java.de.uulm.sp.oop.exercises.e06" />
-      <recent name="main.java.de.uulm.sp.oop.exercises.e05" />
-      <recent name="test.java.de.uulm.sp.oop.exercises.e05" />
-      <recent name="de.uulm.in.pm.api" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cc1575a1-81bc-4a53-b7d2-70e0a9f5a597" name="Changes" comment="" />
-      <created>1683717599238</created>
+      <changelist id="08a4bbae-0b63-4f8b-9b23-06c0077d298f" name="Changes" comment="" />
+      <created>1686752755593</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683717599238</updated>
+      <updated>1686752755593</updated>
     </task>
-    <task id="LOCAL-00001" summary="Even Better File Structure">
-      <created>1683719077264</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1683719077264</updated>
-    </task>
-    <task id="LOCAL-00002" summary="OOP sheet02 unfinshed">
-      <created>1684162974783</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1684162974783</updated>
-    </task>
-    <task id="LOCAL-00003" summary="OOP sheet03 finshed">
-      <created>1684323272118</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1684323272120</updated>
-    </task>
-    <task id="LOCAL-00004" summary="OOP sheet02 partially finished">
-      <created>1685547159675</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1685547159675</updated>
-    </task>
-    <task id="LOCAL-00005" summary="OOP sheet02 finished">
-      <created>1685623469461</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1685623469461</updated>
-    </task>
-    <task id="LOCAL-00006" summary="OOP sheet05 finished">
-      <created>1686669024854</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1686669024854</updated>
-    </task>
-    <task id="LOCAL-00007" summary="OOP sheet06 anfang">
-      <created>1686670329607</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1686670329607</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Even Better File Structure" />
-    <MESSAGE value="OOP sheet02 unfinshed" />
-    <MESSAGE value="OOP sheet03 finshed" />
-    <MESSAGE value="OOP sheet02 partially finished" />
-    <MESSAGE value="OOP sheet02 finished" />
-    <MESSAGE value="OOP sheet05 finished" />
-    <MESSAGE value="OOP sheet06 anfang" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP sheet06 anfang" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Uni$Loops.ic" NAME="Loops Coverage Results" MODIFIED="1683718760389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>sheet01.*</FILTER>
-    </SUITE>
   </component>
 </project>
