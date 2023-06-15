@@ -12,6 +12,11 @@ public class NumberExpression extends Expression {
 
 	public static NumberExpression parse(String stringToParse) throws NotANumberExpressionException {
 		Number value = null;
+		try{
+			value = Double.parseDouble(stringToParse);
+		}catch (NumberFormatException e){
+			throw new NotANumberExpressionException(stringToParse);
+		}
 		
 		return new NumberExpression(value);
 	}

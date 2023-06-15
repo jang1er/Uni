@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'de.uulm.sp.oop'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('junit:junit:4.13.1')
+    testImplementation 'junit:junit:4.13.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application{
+    mainClass ='de.uulm.sp.oop.sokoban.Main'
+}
+
+jar {
+    manifest{
+        attributes 'Main-Class': application.mainClass
+    }
+    from{
+        configurations.runtimeClasspath.collect{ it.isDirectory() ? it : zipTree(it)}
+    }
+}
