@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sokoban:Sokoban xmlns:sokoban="https://pvs.informatik.uni-ulm.de/sokoban">
+  <LevelName>PvS Test Level</LevelName>
+  <LevelData width="7" height="4">#######
+#+* $ #
+#     #
+#######</LevelData>
+</sokoban:Sokoban>

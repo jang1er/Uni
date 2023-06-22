@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="https://pvs.informatik.uni-ulm.de/sokoban"
+           xmlns="https://pvs.informatik.uni-ulm.de/sokoban"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="difficultyEnum">
+    <xs:restriction base="xs:string">
+      @*\textit{\color{blue}<!--Hier fehlt die Enumeration für die Schwierigkeit-->}*@
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="sokobanString">
+    <xs:restriction base="xs:string">
+      <xs:pattern
+        value="@*\textit{\color{blue}[]}*@"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="Sokoban">
+    <xs:complexType>
+      <xs:sequence>
+        @*\textit{\color{blue}<!--Hier fehlen die Element für Autor, Level Name und Schwierigkeit-->}*@
+        <xs:element name="LevelData">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="sokobanString">
+                @*\textit{\color{blue}<!--Hier fehlen die Attribute für Breite und Höhe eines Levels-->}*@
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

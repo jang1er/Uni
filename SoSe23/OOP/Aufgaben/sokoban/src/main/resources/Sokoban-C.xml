@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sokoban:Sokoban xmlns:sokoban="https://pvs.informatik.uni-ulm.de/sokoban">
+  <Author>Stefan Koegel</Author>
+  <Author>Alexander Raschke</Author>
+  <LevelName>PvS Test Level</LevelName>
+  <Difficulty>EASY</Difficulty>
+  <LevelData width="7" height="7">#######
+#,   ,#
+#  $  #
+# $@$ #
+#  $  #
+#,   ,#
+#######</LevelData>
+</sokoban:Sokoban>

@@ -39,10 +39,12 @@ public class Main {
                 case "w":
                     game.moveWest(board);
                     break;
+                case "x":
+                    running = false;
+                    break;
                 default:
                     System.out.println("not a valid input :(");
             }
         }
     }
-
 }
