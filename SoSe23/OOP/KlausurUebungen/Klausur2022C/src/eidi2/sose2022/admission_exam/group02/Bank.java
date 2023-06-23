@@ -41,7 +41,7 @@ public class Bank implements PropertyChangeListener {
 
 		knownVaults.add(vaultToAdd);
 
-		new PropertyChangeEvent(this,"", null, vaultToAdd);
+		support.firePropertyChange(new PropertyChangeEvent(this, "knownVaults",null, vaultToAdd));
 	}
 	
 	/**

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08a4bbae-0b63-4f8b-9b23-06c0077d298f" name="Changes" comment="Klausur Übung 2022B und 2022C fertig">
+    <list default="true" id="08a4bbae-0b63-4f8b-9b23-06c0077d298f" name="Changes" comment="Klausur Übung 2022D fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +19,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RCSpmnuiVvuVFR4QfPxA8Gosex" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -71,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687370572427</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Klausur Übung 2022D fertig">
+      <created>1687447426680</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687447426680</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,9 +97,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Major restructuring" />
     <MESSAGE value="Klausur Übung 2022A fertig" />
     <MESSAGE value="Klausur Übung 2022B und 2022C fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Klausur Übung 2022B und 2022C fertig" />
+    <MESSAGE value="Klausur Übung 2022D fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klausur Übung 2022D fertig" />
   </component>
 </project>
