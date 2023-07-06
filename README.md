@@ -13,3 +13,4 @@ Mein Uni Repository für alle möglichen Vorlesungen und Projekte
     - Rechner Architektur
       - Hauptsprache: VHDL
       - Inhalt: Hardware Implementierung eines 32 Bit RICS-V Prozessors   
+      - Bonus: 3 Übungen mit RISC-V Assembler Code
