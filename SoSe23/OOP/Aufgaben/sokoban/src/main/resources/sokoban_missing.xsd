@@ -5,26 +5,32 @@
 
   <xs:simpleType name="difficultyEnum">
     <xs:restriction base="xs:string">
-      @*\textit{\color{blue}<!--Hier fehlt die Enumeration für die Schwierigkeit-->}*@
+      <xs:enumeration value="EASY"/>
+      <xs:enumeration value="MEDIUM"/>
+      <xs:enumeration value="HARD"/>
+      <xs:enumeration value="IMPOSSIBLE"/>
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="sokobanString">
     <xs:restriction base="xs:string">
       <xs:pattern
-        value="@*\textit{\color{blue}[]}*@"/>
+        value="[.@$#*+]+"/>
     </xs:restriction>
   </xs:simpleType>
 
   <xs:element name="Sokoban">
     <xs:complexType>
       <xs:sequence>
-        @*\textit{\color{blue}<!--Hier fehlen die Element für Autor, Level Name und Schwierigkeit-->}*@
+        <xs:element name="Author" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="LevelName" />
+        <xs:element name="Difficulty" type="difficultyEnum" minOccurs="0"/>
         <xs:element name="LevelData">
           <xs:complexType>
             <xs:simpleContent>
               <xs:extension base="sokobanString">
-                @*\textit{\color{blue}<!--Hier fehlen die Attribute für Breite und Höhe eines Levels-->}*@
+                <xs:attribute name="width" type="xs:int" use="required"/>
+                <xs:attribute name="height" type="xs:int" use="required"/>
               </xs:extension>
             </xs:simpleContent>
           </xs:complexType>
