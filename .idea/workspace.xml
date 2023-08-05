@@ -4,22 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="08a4bbae-0b63-4f8b-9b23-06c0077d298f" name="Changes" comment="Updates">
       <change afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sokoban/src/main/resources/picture.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Uni.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Uni.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sokoban/src/main/resources/sokoban_missing.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sokoban/src/main/resources/sokoban_missing.xsd" afterDir="false" />
     </list>
+=======
+    <list default="true" id="08a4bbae-0b63-4f8b-9b23-06c0077d298f" name="Changes" comment="Klausur Übung 2022D fertig" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2RCSpmnuiVvuVFR4QfPxA8Gosex" />
   <component name="ProjectLevelVcsManager">
@@ -29,6 +39,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
@@ -48,6 +59,14 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SoSe23/OOP/Aufgaben/sokoban/src/main/resources" />
     </key>
+=======
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+>>>>>>> Stashed changes
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,6 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686752755593</updated>
+      <workItem from="1691243174213" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="Major restructuring">
       <created>1686753101056</created>
